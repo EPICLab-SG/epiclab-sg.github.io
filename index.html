@@ -36,16 +36,16 @@ permalink: /index
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 24px;              /* space between logos */
-        flex-wrap: wrap;        /* ✅ allow wrapping on small screens */
-        row-gap: 14px;          /* ✅ nicer spacing when wrapped */
+        gap: 24px; /* space between logos */
+        flex-wrap: wrap; /* ✅ allow wrapping on small screens */
+        row-gap: 14px; /* ✅ nicer spacing when wrapped */
     }
 
     .logo-row img {
-        height: 80px;           /* desktop logo height */
+        height: 80px; /* desktop logo height */
         width: auto;
         display: block;
-        max-width: 100%;        /* ✅ never overflow container */
+        max-width: 100%; /* ✅ never overflow container */
         object-fit: contain;
     }
 
@@ -53,14 +53,15 @@ permalink: /index
         .logo-row {
             gap: 14px;
         }
+
         .logo-row img {
-            height: 42px;       /* ✅ smaller on mobile */
+            height: 42px; /* ✅ smaller on mobile */
         }
     }
 
     @media (max-width: 380px) {
         .logo-row img {
-            height: 36px;       /* ✅ very small phones */
+            height: 36px; /* ✅ very small phones */
         }
     }
 </style>
@@ -104,27 +105,40 @@ permalink: /index
             <ul>
                 <li>
                     <markorange><strong>Mathematical Foundations of Epistemic Uncertainty:</strong></markorange>
-                    We study the mathematical and statistical
-                    principles governing knowledge-level uncertainty, including representation (e.g. distributions v.s.
-                    sets), quantification (e.g. information-theoretic v.s. discrepency-based), comparisons (e.g.
-                    probability metrics), verification (e.g. statistical tests) of epistemic uncertainty.
+                    We investigate the mathematical and statistical structures underlying
+                    knowledge-level uncertainty. Our work examines formal representation frameworks (e.g., single
+                    probability measures, sets of distributions, and higher-order models), principled quantification
+                    strategies (e.g., information-theoretic and discrepancy-based characterisations),
+                    methods for comparison and geometry (e.g., probability metrics and statistical distances), and
+                    procedures for empirical verification (e.g., statistical testing and model
+                    criticism). This research draws on tools from probability theory, imprecise probability, Bayesian
+                    statistics, information theory, statistical inference and testing, and cooperative game theory.
                 </li>
                 <li>
                     <markblue><strong>Algorithms for Epistemic Uncertainty-Aware Learning:</strong></markblue>
-                    We develope machine learning algorithms that
-                    can reason about, propagate, and communicate epistemic uncertainty in prediction (e.g. Gaussian
-                    process, neural networks, conformal framework), inference (e.g. causal inference), and
-                    decision-making (e.g. active learning, Bayesian optimisation).
+                    We design and analyse machine learning algorithms that explicitly model, propagate, and exploit
+                    epistemic uncertainty across the learning pipeline. Our work focuses on uncertainty-aware predictive
+                    modelling (e.g., Gaussian processes, Bayesian neural networks, credal predictors, and conformal
+                    prediction methods),
+                    structured inference under incomplete or ambiguous information (e.g., causal, counterfactual, and
+                    strategic
+                    learning), and decision-making under uncertainty (e.g., active learning and Bayesian optimisation).
+                    Emphasis is placed on statistical validity, robustness to distributional
+                    shift, computational efficiency, and principled uncertainty communication, enabling learning systems
+                    to support reliable reasoning and decision processes in open-world settings.
 
                 </li>
                 <li>
                     <markgreen><strong>Epistemic Uncertainty-Aware AI Systems, Frameworks, and Applications:</strong>
                     </markgreen>
-                    We translate our theoretical
-                    and algorithmic developments into practical AI systems within the broader trustworthy AI landscape,
-                    addressing challenges such as interpretability and explainability, out-of-domain detections,
-                    incentive-aware and
-                    adverserial machine learning,AI safety, robustness, and language models.
+                    We operationalise our theoretical and algorithmic advances by developing uncertainty-aware AI
+                    systems and methodological frameworks for real-world deployment. Our work investigates how
+                    epistemic uncertainty can be leveraged to improve reliability, safety, and robustness in complex
+                    learning environments, with applications spanning interpretable and explainable models,
+                    out-of-distribution detection, robustness under distributional shift, incentive-aware and
+                    adversarial learning, AI safety, and foundation / language models. A central objective is the design
+                    of systems that can recognise the limits of their knowledge, adapt to novel conditions, and
+                    communicate uncertainty in a manner conducive to human oversight and decision-making.
                 </li>
             </ul>
         </div>
