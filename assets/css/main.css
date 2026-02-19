@@ -131,7 +131,7 @@ li {
 /* Align header content */
 .site-header .wrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
 }
 
@@ -147,6 +147,7 @@ li {
 .site-nav {
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .site-nav .trigger {
@@ -182,11 +183,18 @@ li {
     align-items: center;
     justify-content: center;
     cursor: pointer;
+
+      /* force visible placement */
+    position: relative;
+    z-index: 10000;
+    margin-left: auto;
+
   }
 
   .menu-icon svg {
-    width: 24px;
-    height: 24px;
+    width: 26px;
+    height: 26px;
+    display: block;
   }
 
   .site-nav { position: relative; } /* helps absolute dropdown anchor correctly */
@@ -196,12 +204,20 @@ li {
     flex-direction: column;
     position: absolute;
     top: 56px;
-    right: 16px;
+    right: 0px;
     background: white;
     padding: 12px;
     border-radius: 8px;
     box-shadow: 0 6px 18px rgba(0,0,0,0.12);
     z-index: 9999;
+
+  }
+
+  .site-nav .trigger a.page-link {
+    color: #333 !important;
+    text-decoration: none;
+    padding: 8px 10px;
+    display: block;
   }
 
   .site-nav.active .trigger {
