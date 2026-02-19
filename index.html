@@ -31,17 +31,37 @@ permalink: /index
         color: black;
     }
 
+    /* --- Logos (mobile-safe) --- */
     .logo-row {
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 24px; /* space between logos */
+        gap: 24px;              /* space between logos */
+        flex-wrap: wrap;        /* ✅ allow wrapping on small screens */
+        row-gap: 14px;          /* ✅ nicer spacing when wrapped */
     }
 
     .logo-row img {
-        height: 60px; /* set a consistent logo height */
+        height: 60px;           /* desktop logo height */
         width: auto;
         display: block;
+        max-width: 100%;        /* ✅ never overflow container */
+        object-fit: contain;
+    }
+
+    @media (max-width: 768px) {
+        .logo-row {
+            gap: 14px;
+        }
+        .logo-row img {
+            height: 42px;       /* ✅ smaller on mobile */
+        }
+    }
+
+    @media (max-width: 380px) {
+        .logo-row img {
+            height: 36px;       /* ✅ very small phones */
+        }
     }
 </style>
 
