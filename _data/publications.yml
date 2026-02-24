@@ -5,6 +5,20 @@ items:
   # --------------------
 
   - year: 2026
+    title: "Robust Predictive Uncertainty and Double Descent in Contaminated Bayesian Random Features"
+    authors:
+      - "Michele Caprio"
+      - "Katerina Papagiannouli"
+      - "Siu Lun Chau"
+      - "Sayan Mukherjee"
+    highlight_authors:
+      - "Siu Lun Chau"
+    venue:
+      - "Arxiv 2026"
+    links:
+      pdf: https://arxiv.org/pdf/2602.19126
+
+  - year: 2026
     title: "Learning Credal Ensembles via Distributionally Robust Optimization"
     authors:
       - "Kaizheng Wang"
