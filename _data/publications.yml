@@ -3,6 +3,22 @@ items:
   # --------------------
   # 2026
   # --------------------
+  - year: 2026
+    title: "Set-based v.s. Distribution-based Representations of Epistemic Uncertainty: A Comparative Study"
+    authors:
+      - "Kaizheng Wang"
+      - "Yunjia Wang"
+      - "Fabio Cuzzolin"
+      - "David Moens"
+      - "Hans Hallez"
+      - "Siu Lun Chau"
+    highlight_authors:
+      - "Kaizheng Wang"
+      - "Siu Lun Chau"
+    venue:
+      - "Arxiv 2026"
+    links:
+      pdf: http://arxiv.org/abs/2602.22747
 
   - year: 2026
     title: "Robust Predictive Uncertainty and Double Descent in Contaminated Bayesian Random Features"
