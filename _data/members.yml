@@ -13,7 +13,7 @@ current:
   - name: "Kaizheng Wang"
     role: "Postdoctoral Research Fellow"
 #    topics: "Imprecise Probabilistic Machine Learning"
-    photo: "/assets/image/team/kaizheng.jpg"
+    photo: "/assets/image/team/kaizheng.png"
     email: "kaizheng.wang@ntu.edu.sg"
     links:
       linkedin: "https://www.linkedin.com/in/kaizheng-wang-a538661a9/"
@@ -33,7 +33,8 @@ current:
 #    topics: "Uncertainty-aware Causal Inference"
     photo: "/assets/image/team/yuqi.png"
     links:
-      linkedin: "https://www.linkedin.com/in/yuqi-zhang-0b64bb1a6/"
+      linkedin: "https://www.linkedin.com/in/yuqi-zhang-b207a720b/"
+      # linkedin: "https://www.linkedin.com/in/yuqi-zhang-0b64bb1a6/"
 
   - name: "Xiaotao Liu"
     role: "Undergraduate Research Student"
