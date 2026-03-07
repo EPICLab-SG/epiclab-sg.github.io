@@ -17,6 +17,7 @@ items:
       - "Arxiv 2026"
     links:
       pdf: http://arxiv.org/abs/2603.05175
+      code: https://github.com/muandet-lab/incentive-aware-ai-regulation
 
   - year: 2026
     title: "Instrumental and Proximal Causal Inference with Gaussian Processes"
@@ -122,6 +123,7 @@ items:
     venue: "Annual AAAI Conference on Artificial Intelligence (AAAI) 2026"
     links:
       pdf: "https://arxiv.org/pdf/2508.14499v1"
+      code: "https://github.com/Majeed7/orthogonal-additive-gaussian-processes-main"
 
   # --------------------
   # 2025
@@ -192,3 +194,4 @@ items:
     venue: "International Conference on Machine Learning (ICML) 2025"
     links:
       pdf: "https://openreview.net/forum?id=9LqXn0Izwk"
+      code: https://github.com/MashaNaslidnyk/kqe
