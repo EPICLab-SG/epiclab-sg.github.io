@@ -21,14 +21,19 @@
     {% endif %}
   </p> -->
 
-  <p class="publication-venue">
-    {{ include.pub.venue }}
-    {% if include.pub.badges %}
-      {% for b in include.pub.badges %}
-        <span class="pub-badge {{ b.class }}">{{ b.text }}</span>
-      {% endfor %}
-    {% endif %}
-  </p>
+<p class="publication-venue">
+  {{ include.pub.venue }}
+  {% if include.pub.badges %}
+    {% for b in include.pub.badges %}
+      <span class="pub-badge {{ b.class }}"
+        {% if b.class == "badge-spotlight" or b.class == "badge-oral" %}
+          style="color: red;"
+        {% endif %}>
+        {{ b.text }}
+      </span>
+    {% endfor %}
+  {% endif %}
+</p>
 
   {% if include.pub.links %}
   <div class="publication-links-compact">
