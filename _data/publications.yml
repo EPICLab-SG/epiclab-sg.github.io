@@ -4,6 +4,33 @@ items:
   # 2026
   # --------------------
   - year: 2026
+    title: "Measuring Differences between Conditional Distributions using Kernel Embeddings"
+    authors:
+      - "Peter Moskvichev"
+      - "Siu Lun Chau"
+      - "Dino Sejdinovic"
+    highlight_authors:
+      - "Siu Lun Chau"
+    venue:
+      - "Arxiv 2026"
+    links:
+      pdf: https://arxiv.org/pdf/2605.02260
+
+  - year: 2026
+    title: "Off-Policy Evaluation with Strategic Agents via Local Disclosure"
+    authors:
+      - "Kiet Q.H. Vo"
+      - "Abbavaram Gowtham Reddy"
+      - "Julian Rodemann"
+      - "Siu Lun Chau"
+      - "Krikamol Muandet"
+    highlight_authors:
+      - "Siu Lun Chau"
+    venue:
+      - "ICML 2026"
+    links:
+
+  - year: 2026
     title: "Quantification of Credal Quantification of Credal Uncertainty: A Distance-based Approach"
     authors:
       - "Xabier Gonzalez-Garcia"
