@@ -60,6 +60,7 @@ items:
     venue:
       - "International Conference on Machine Learning (ICML) 2026"
     links:
+      pdf: https://arxiv.org/pdf/2606.07308
 
   - year: 2026
     title: "Quantification of Credal Quantification of Credal Uncertainty: A Distance-based Approach"
