@@ -4,6 +4,40 @@ items:
   # 2026
   # --------------------
   - year: 2026
+    title: "How do Consonance Constructions Shape Conformal Credal Sets?"
+    authors:
+      - "Chun Ho Chong"
+      - "Kaizheng Wang"
+      - "Michele Caprio"
+      - "Siu Lun Chau"
+    highlight_authors:
+      - "Chun Ho Chong"
+      - "Kaizheng Wang"
+      - "Siu Lun Chau"
+    venue:
+      - "ICML 2026 Epistemic Intelligence in Machine Learning Workshop"
+    links:
+      pdf: 
+    
+  - year: 2026
+    title: "Dynamic Large Language Model Representations for Multi-objective Chemical Reaction Optimisation"
+    authors:
+      - "Joshua W. Sin"
+      - "David Ming Seguran"
+      - "Bojana Ranković"
+      - "Siu Lun Chau"
+      - "Ryan P. Burwood"
+      - "Kurt Püntener"
+      - "Raphael Bigler"
+      - "Philippe Schwaller"
+    highlight_authors:
+      - "Siu Lun Chau"
+    venue:
+      - "ICML 2026 AI for Science Workshop"
+    links:
+      pdf: https://openreview.net/forum?id=j0TN7jU14o#discussion
+  
+  - year: 2026
     title: "Amortized Linear-time Exact Shapley Value for Product-Kernel Methods"
     authors:
       - "Majid Mohammadi"
