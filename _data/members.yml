@@ -2,8 +2,17 @@
 
 current:
   - name: "Siu Lun Chau"
-    role: "Faculty"
+    role: "PI"
+    previous_affiliations:
+      - degree: "Postdoc"
+        institution: "CISPA Helmholtz Center for Information Security"
+      - degree: "DPhil in Statistics"
+        institution: "University of Oxford"
     topics:
+      - "Statistical Machine Learning"
+      - "Epistemic Intelligence"
+      - "Imprecise probabilities"
+      - "Kernel methods & Gaussian processes"
     photo: "/assets/image/team/alan.jpeg"
     email: "siulun.chau@ntu.edu.sg"
     links:
@@ -12,7 +21,11 @@ current:
 
   - name: "Kaizheng Wang"
     role: "Postdoctoral Research Fellow"
-#    topics: "Imprecise Probabilistic Machine Learning"
+    previous_affiliations:
+      - degree: "PhD in Machine Learning"
+        institution: "KU Leuven (Runner-up of BNVKI 2026 PhD Dissertation Award)"
+    topics:
+      - "Imprecise Probabilistic Machine Learning"
     photo: "/assets/image/team/kaizheng.png"
     email: "kaizheng.wang@ntu.edu.sg"
     links:
@@ -20,42 +33,89 @@ current:
       website: "https://kaizheng-wang.github.io/"
 
   - name: "Clayton Chong"
-    role: "PhD Student"
-#    topics: "Decision-making under Epistemic Uncertainty for Cooperative Games"
+    role: "PhD Student (RSS Scholar)"
+    previous_affiliations:
+        - degree: "MMATH in Mathematics"
+          institution: "University of Oxford (HKSES Scholar)"
+    topics:
+      - "Explainability x Uncertainty"
+      - "Cooperative machine learning"
     photo: "/assets/image/team/clayton.jpeg"
     email: "chongclayton3@gmail.com"
     links:
       linkedin: "https://www.linkedin.com/in/clayton-chong-7b9a5514b/"
 
-  - name: "Yuqi Zhang"
-    role: "PhD Student @ HKU"
-    subtitle: "(main supervisor Prof. Edwin Fong @ HKU)"
-#    topics: "Uncertainty-aware Causal Inference"
-    photo: "/assets/image/team/yuqi.png"
-    links:
-      linkedin: "https://www.linkedin.com/in/yuqi-zhang-b207a720b/"
-      # linkedin: "https://www.linkedin.com/in/yuqi-zhang-0b64bb1a6/"
-
   - name: "Joshua Adrian Cahyono"
-    role: "Incoming PhD Student"
-#    topics: "Epistemic Intelligence"
+    role: "PhD Student (PGA Scholar)"
+    previous_affiliations:
+      - degree: "BSc in Data Science & Artificial Intelligence"
+        institution: "Nanyang Technological University (ASEAN Scholar)"
+    topics:
+      - "Statistical AI Safety"
+      - "Mechanistic Interpretability"
     photo: "/assets/image/team/Joshua.jpeg"
     email: "joshuaadrianc@gmail.com"
     links:
       linkedin: "https://www.linkedin.com/in/joshua-ac/"
       website: "https://jvthunder.org/#about"
 
+  - name: "Yuqi Zhang"
+    role: "PhD Student @ HKU (HKPFS Scholar)"
+    subtitle: "(main supervisor Prof. Edwin Fong @ HKU)"
+    previous_affiliations:
+      - degree: "MMATH Mathematics & Statistics"
+        institution: "University of Oxford"
+    topics:
+      - "Bayesian Causal Inference"
+    photo: "/assets/image/team/yuqi.png"
+    links:
+      linkedin: "https://www.linkedin.com/in/yuqi-zhang-b207a720b/"
+      # linkedin: "https://www.linkedin.com/in/yuqi-zhang-0b64bb1a6/"
+
+
   - name: "Xiaotao Liu"
     role: "Undergraduate Research Student"
-#    topics: "Decision-making under Epistemic Uncertainty"
+    topics:
+      - "Decision-making under Credal Uncertainty"
     photo: "/assets/image/team/xiaotao.png"
     email: "XLIU057@e.ntu.edu.sg"
   
   - name: "Haoting Xie"
     role: "Undergraduate Research Student"
-#    topics: "Decision-making under Epistemic Uncertainty"
+    topics:
+      - "Uncertainty-aware Prediction on Manifolds"
     photo: "/assets/image/team/haoting.jpg"
     email: "HXIE009@e.ntu.edu.sg"
 
 # Optional section for later
 alumni: []
+
+# Example visitor entry:
+# visitors:
+#   - name: "Visitor Name"
+#     visit: "January–March 2026"
+#     description: "Professor of Statistics, Example University"
+#     website: "https://example.com/" # optional
+visitors:
+  - name: "Mengyan Zhang"
+    visit: "July 2026"
+    description: "Assistant Professor, University of Bristol, UK"
+  - name: "Antonin Schrab"
+    visit: "June 2026"
+    description: "Postdoctoral researcher, University of Cambridge, UK"
+  - name: "Veronika Lohmanova"
+    visit: "June 2026"
+    description: "Undergraduate student, University of Manchester, UK"
+  - name: "Dino Sejdinovic"
+    visit: "March 2026"
+    description: "Professor, Adelaide University, AU"
+  - name: "Yusuf Sale"
+    visit: "Jan 2026"
+    description: "Akademischer Rat in Machine Learning, LMU Munich, DE"
+  - name: "Fabio Cuzzolin"
+    visit: "Jan 2026"
+    description: "Professor, Oxford Brookes University, UK"
+  - name: "Krikamol Muandet"
+    visit: "July 2025"
+    description: "Faculty, CIPSA Helmholtz Center for Information Security"
+

@@ -9,15 +9,34 @@
 
   <h4>{{ include.member.name }}</h4>
 
-  <p class="member-role">
-    {{ include.member.role }}
-    {% if include.member.subtitle %}
-      <br />{{ include.member.subtitle }}
-    {% endif %}
-  </p>
+  <div class="member-current-position">
+    <span class="member-role">{{ include.member.role | escape }}</span>
+  </div>
 
-  {% if include.member.topics %}
-    <p class="member-research">Topics: {{ include.member.topics }}</p>
+  {% if include.member.subtitle %}
+    <p class="member-subtitle">{{ include.member.subtitle | escape }}</p>
+  {% endif %}
+
+  {% if include.member.previous_affiliations or include.member.topics %}
+    <div class="member-meta">
+      {% if include.member.previous_affiliations %}
+        <div class="member-meta-group">
+          <span class="member-meta-label">Previously</span>
+          <div class="member-meta-content member-meta-list">
+            {% for affiliation in include.member.previous_affiliations %}
+              <span>{% if affiliation.degree %}{{ affiliation.degree | escape }} · {% endif %}{{ affiliation.institution | escape }}</span>
+            {% endfor %}
+          </div>
+        </div>
+      {% endif %}
+
+      {% if include.member.topics %}
+        <div class="member-meta-group">
+          <span class="member-meta-label">Research</span>
+          <span class="member-meta-content">{% for topic in include.member.topics %}{{ topic | escape }}{% unless forloop.last %} · {% endunless %}{% endfor %}</span>
+        </div>
+      {% endif %}
+    </div>
   {% endif %}
 
   <div class="member-links">

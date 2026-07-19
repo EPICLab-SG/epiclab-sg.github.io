@@ -26,4 +26,34 @@ permalink: /team.html
     </div>
   </div>
   {% endif %}
+
+  {% if site.data.members.visitors and site.data.members.visitors.size > 0 %}
+  <div class="team-section visitors-section">
+    <h2 class="section-title">Visitors</h2>
+
+    <ul class="visitor-list">
+      {% for visitor in site.data.members.visitors %}
+        <li class="visitor-item">
+          <div class="visitor-details">
+            {% if visitor.website %}
+              <a class="visitor-name" href="{{ visitor.website }}" target="_blank" rel="noopener">
+                {{ visitor.name | escape }}
+              </a>
+            {% else %}
+              <strong class="visitor-name">{{ visitor.name | escape }}</strong>
+            {% endif %}
+
+            {% if visitor.description %}
+              <span class="visitor-description">— {{ visitor.description | escape }}</span>
+            {% endif %}
+          </div>
+
+          {% if visitor.visit %}
+            <span class="visitor-date">{{ visitor.visit | escape }}</span>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
 </div>
