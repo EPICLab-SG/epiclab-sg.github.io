@@ -72,20 +72,34 @@ current:
       linkedin: "https://www.linkedin.com/in/yuqi-zhang-b207a720b/"
       # linkedin: "https://www.linkedin.com/in/yuqi-zhang-0b64bb1a6/"
 
+  - name: "Xabier Gonzalez-Garcia"
+    role: "Visiting PhD Student"
+#    previous_affiliations:
+#      - degree: "Postdoc"
+#        institution: "CISPA Helmholtz Center for Information Security"
+#      - degree: "DPhil in Statistics"
+#        institution: "University of Oxford"
+    topics:
+      - "Imprecise probabilities"
+    photo: "/assets/image/team/xabi.jpeg"
+    email: "N2606441B@e.ntu.edu.sg"
+#    links:
+#      linkedin: "https://www.linkedin.com/in/lan-zhou/"
+#      website: "https://chau999.github.io/"
 
-  - name: "Xiaotao Liu"
-    role: "Undergraduate Research Student"
-    topics:
-      - "Decision-making under Credal Uncertainty"
-    photo: "/assets/image/team/xiaotao.png"
-    email: "XLIU057@e.ntu.edu.sg"
-  
-  - name: "Haoting Xie"
-    role: "Undergraduate Research Student"
-    topics:
-      - "Uncertainty-aware Prediction on Manifolds"
-    photo: "/assets/image/team/haoting.jpg"
-    email: "HXIE009@e.ntu.edu.sg"
+#  - name: "Xiaotao Liu"
+#    role: "Undergraduate Research Student"
+#    topics:
+#      - "Decision-making under Credal Uncertainty"
+#    photo: "/assets/image/team/xiaotao.png"
+#    email: "XLIU057@e.ntu.edu.sg"
+#
+#  - name: "Haoting Xie"
+#    role: "Undergraduate Research Student"
+#    topics:
+#      - "Uncertainty-aware Prediction on Manifolds"
+#    photo: "/assets/image/team/haoting.jpg"
+#    email: "HXIE009@e.ntu.edu.sg"
 
 # Optional section for later
 alumni: []
@@ -97,6 +111,9 @@ alumni: []
 #     description: "Professor of Statistics, Example University"
 #     website: "https://example.com/" # optional
 visitors:
+  - name: "Zonghao (Hudson) Chen"
+    visit: "Sep 2026"
+    description: "Postdoctoral Researcher, University of Pennsylvania"
   - name: "Mengyan Zhang"
     visit: "July 2026"
     description: "Assistant Professor, University of Bristol, UK"
