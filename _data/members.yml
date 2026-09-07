@@ -73,14 +73,13 @@ current:
       # linkedin: "https://www.linkedin.com/in/yuqi-zhang-0b64bb1a6/"
 
   - name: "Xabier Gonzalez-Garcia"
-    role: "Visiting PhD Student"
-#    previous_affiliations:
-#      - degree: "Postdoc"
-#        institution: "CISPA Helmholtz Center for Information Security"
-#      - degree: "DPhil in Statistics"
-#        institution: "University of Oxford"
+    role: "Visiting PhD Student (UPNA, FPI Scholar)"
+    previous_affiliations:
+      - degree: "MEng Computational Engineering and Mathematics"
+        institution: "The University of Rovira i Virgili"
     topics:
       - "Imprecise probabilities"
+      - "Information Fusion"
     photo: "/assets/image/team/xabi.jpeg"
     email: "N2606441B@e.ntu.edu.sg"
 #    links:
