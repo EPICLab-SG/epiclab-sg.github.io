@@ -4,6 +4,19 @@ items:
   # 2026
   # --------------------
   - year: 2026
+    title: "Epistemic Learning from Imprecise Annotation"
+    authors:
+      - "Kaizheng Wang"
+      - "Siu Lun Chau"
+    highlight_authors:
+      - "Kaizheng Wang"
+      - "Siu Lun Chau"
+    venue:
+      - "Arxiv 2026"
+    links:
+      pdf: https://arxiv.org/abs/2609.34285
+
+  - year: 2026
     title: "How do Consonance Constructions Shape Conformal Credal Sets?"
     authors:
       - "Chun Ho Chong"
@@ -49,7 +62,7 @@ items:
       - "Majid Mohammadi"
       - "Siu Lun Chau"
     venue:
-      - "Arxiv 2026"
+      - "Annual Conference on Neural Information Processing Systems (NeurIPS) 2026"
     links:
       pdf: https://arxiv.org/pdf/2505.16516
 

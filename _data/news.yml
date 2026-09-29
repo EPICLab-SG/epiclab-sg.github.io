@@ -1,4 +1,10 @@
 items:
+  - date: "Sep 2026"
+    date_sort: "2026-09-24"
+    text: One of our papers has been accepted at NeurIPS 2026!
+    link_text:
+    link_url: ""
+
   - date: "June 2026"
     date_sort: "2026-06-02"
     text: Five of our papers have been accepted at UAI 2026!
