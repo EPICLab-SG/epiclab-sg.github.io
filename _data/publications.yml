@@ -4,6 +4,21 @@ items:
   # 2026
   # --------------------
   - year: 2026
+    title: "Open-ended Scientific Discovery with Possibilistic Reasoning"
+    authors:
+      - "Anita Yang"
+      - "Siu Lun Chau"
+      - "Tomoya Wakayama"
+      - "Krikamol Muandet"
+      - "Masaki Adachi"
+    highlight_authors:
+      - "Siu Lun Chau"
+    venue:
+      - "Arxiv 2026"
+    links:
+      pdf: https://arxiv.org/abs/2610.11289
+
+  - year: 2026
     title: "Epistemic Learning from Imprecise Annotation"
     authors:
       - "Kaizheng Wang"
