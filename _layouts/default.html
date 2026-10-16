@@ -17,6 +17,9 @@
     <!-- <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}"> -->
     <link rel="stylesheet" href="{{ '/assets/css/team.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    {% if page.custom_css %}
+    <link rel="stylesheet" href="{{ page.custom_css | relative_url }}">
+    {% endif %}
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">

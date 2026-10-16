@@ -1,0 +1,107 @@
+/* Page-specific styles for the lab's roles and principles. */
+.roles-page {
+    padding-top: 38px;
+    padding-bottom: 12px;
+}
+
+.roles-page p,
+.roles-page li,
+.roles-page a,
+.roles-page strong,
+.roles-page summary {
+    font-size: 15px;
+}
+
+.roles-intro h1 {
+    color: var(--header-border);
+    margin-bottom: 20px;
+}
+
+.roles-contents {
+    background: #f5f8fc;
+    border-left: 3px solid var(--link);
+    margin: 26px 0 32px;
+    padding: 18px 20px;
+}
+
+.roles-contents p {
+    margin-bottom: 8px;
+}
+
+.roles-contents ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 20px;
+    list-style: none;
+    margin: 0;
+}
+
+.roles-contents li {
+    margin: 0;
+}
+
+.roles-contents a {
+    display: inline-block;
+    padding: 5px 0;
+}
+
+.role-section {
+    border-top: 1px solid var(--border);
+    padding-top: 26px;
+    margin-top: 30px;
+    scroll-margin-top: 86px;
+}
+
+.role-section h2 {
+    color: var(--header-border);
+    margin-top: 0;
+    margin-bottom: 18px;
+}
+
+.role-section li {
+    margin-bottom: 10px;
+}
+
+.roles-note {
+    background: #f5f8fc;
+    border-left: 3px solid var(--link);
+    padding: 16px 20px;
+    margin-top: 20px;
+}
+
+.roles-practice {
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    margin: 12px 0;
+}
+
+.roles-practice summary {
+    color: var(--header-border);
+    cursor: pointer;
+    font-weight: 600;
+    padding: 15px 18px;
+}
+
+.roles-practice summary:hover {
+    background: #f5f8fc;
+}
+
+.roles-practice-body {
+    padding: 0 18px 4px;
+}
+
+.roles-page a:focus-visible,
+.roles-practice summary:focus-visible {
+    outline: 2px solid var(--link);
+    outline-offset: 4px;
+}
+
+@media (max-width: 480px) {
+    .roles-page {
+        padding-top: 28px;
+    }
+
+    .roles-intro h1 {
+        font-size: 1.9rem;
+    }
+}
