@@ -10,17 +10,30 @@ permalink: /publications
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     }
 
-    .year-group {
+    .publication-category {
       margin-bottom: 25px;
     }
 
-    .year-heading {
+    .category-heading {
       font-size: 1.5em;
       color: #2c3e50;
       border-bottom: 2px solid #3498db;
       padding-bottom: 5px;
       margin-bottom: 12px;
       font-weight: 600;
+    }
+
+    .category-count {
+      font-size: 0.7em;
+      color: #666;
+      font-weight: 400;
+    }
+
+    .publication-number {
+      color: #a6530b;
+      font-weight: 500;
+      margin-right: 0.15em;
+      white-space: nowrap;
     }
 
     .publication-item-compact {
@@ -106,18 +119,22 @@ permalink: /publications
   <div class="publications-compact">
 
     {% assign pubs = site.data.publications.items | sort: "year" | reverse %}
-    {% assign years = pubs | map: "year" | uniq %}
+    {% assign categories = "preprint,published,workshop" | split: "," %}
+    {% assign category_titles = "Preprints,Accepted & Published Papers,Workshop Contributions" | split: "," %}
+    {% assign counter = pubs | size %}
 
-    {% for y in years %}
-      <div class="year-group">
-        <h2 class="year-heading">{{ y }}</h2>
+    {% for category in categories %}
+      {% assign category_pubs = pubs | where: "category", category %}
+      {% if category_pubs.size > 0 %}
+      <section class="publication-category" aria-labelledby="category-{{ category }}">
+        <h2 class="category-heading" id="category-{{ category }}">{{ category_titles[forloop.index0] }} <span class="category-count">({{ category_pubs.size }})</span></h2>
 
-        {% for p in pubs %}
-          {% if p.year == y %}
-            {% include pub-item.html pub=p %}
-          {% endif %}
+        {% for p in category_pubs %}
+          {% include pub-item.html pub=p number=counter %}
+          {% assign counter = counter | minus: 1 %}
         {% endfor %}
-      </div>
+      </section>
+      {% endif %}
     {% endfor %}
 
   </div>

@@ -5,7 +5,7 @@
 {% assign hi = global_hi | concat: local_hi | uniq %}
 
 <div class="publication-item-compact">
-  <h3 class="publication-title">{{ include.pub.title }}</h3>
+  <h3 class="publication-title">{% if include.number %}<span class="publication-number">[{{ include.number }}]</span> {% endif %}{{ include.pub.title }}</h3>
   {% if include.pub.authors %}
     <p class="publication-authors">
       {% for author in include.pub.authors %}

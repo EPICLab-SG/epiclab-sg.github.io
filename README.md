@@ -47,6 +47,17 @@ permalink: /people.html
 
 Then add your HTML content below.
 
+## Updating publications
+
+Add or update entries in `_data/publications.yml`. Each entry must include a
+`category`: `preprint`, `published` (accepted or published journal/conference
+papers), or `workshop`. When a preprint is accepted, update its category and venue.
+
+The publications page groups entries by category, sorts each group by descending
+year, and automatically generates section counts and continuous descending paper
+numbers. Numbers are display positions and may change when entries are added or
+recategorized. Keep PDF links, author highlighting, and awards on the same entry.
+
 ## Notes
 
 - Asset paths in the layout use `relative_url` so they work both locally and on GitHub Pages.

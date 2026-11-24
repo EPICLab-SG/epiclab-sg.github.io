@@ -4,6 +4,7 @@ items:
   # 2026
   # --------------------
   - year: 2026
+    category: preprint
     title: "Open-ended Scientific Discovery with Possibilistic Reasoning"
     authors:
       - "Anita Yang"
@@ -19,6 +20,7 @@ items:
       pdf: https://arxiv.org/abs/2610.11289
 
   - year: 2026
+    category: preprint
     title: "Epistemic Learning from Imprecise Annotation"
     authors:
       - "Kaizheng Wang"
@@ -32,6 +34,7 @@ items:
       pdf: https://arxiv.org/abs/2609.34285
 
   - year: 2026
+    category: workshop
     title: "How do Consonance Constructions Shape Conformal Credal Sets?"
     authors:
       - "Chun Ho Chong"
@@ -48,6 +51,7 @@ items:
       pdf: 
     
   - year: 2026
+    category: workshop
     title: "Dynamic Large Language Model Representations for Multi-objective Chemical Reaction Optimisation"
     authors:
       - "Joshua W. Sin"
@@ -66,6 +70,7 @@ items:
       pdf: https://openreview.net/forum?id=j0TN7jU14o#discussion
   
   - year: 2026
+    category: published
     title: "Amortized Linear-time Exact Shapley Value for Product-Kernel Methods"
     authors:
       - "Majid Mohammadi"
@@ -82,6 +87,7 @@ items:
       pdf: https://arxiv.org/pdf/2505.16516
 
   - year: 2026
+    category: preprint
     title: "QuadraSHAP: Stable and Scalable Shapley Values for Product Games via Gauss–Legendre Quadrature"
     authors:
       - "Majid Mohammadi"
@@ -97,6 +103,7 @@ items:
       pdf: https://arxiv.org/pdf/2605.05870
 
   - year: 2026
+    category: published
     title: "Measuring Differences between Conditional Distributions using Kernel Embeddings"
     authors:
       - "Peter Moskvichev"
@@ -110,6 +117,7 @@ items:
       pdf: https://arxiv.org/pdf/2605.02260
 
   - year: 2026
+    category: published
     title: "Off-Policy Evaluation with Strategic Agents via Local Disclosure"
     authors:
       - "Kiet Q.H. Vo"
@@ -125,6 +133,7 @@ items:
       pdf: https://arxiv.org/pdf/2606.07308
 
   - year: 2026
+    category: published
     title: "Quantification of Credal Uncertainty: A Distance-based Approach"
     authors:
       - "Xabier Gonzalez-Garcia"
@@ -144,6 +153,7 @@ items:
       pdf: https://arxiv.org/pdf/2603.27270
 
   - year: 2026
+    category: published
     title: "Verbalizing LLM’s Higher-order Uncertainty via Imprecise Probabilities"
     authors:
       - "Anita Yang"
@@ -159,6 +169,7 @@ items:
       pdf: https://arxiv.org/abs/2603.10396
 
   - year: 2026
+    category: preprint
     title: "Incentive Aware AI Regulations: A Credal Characterisation"
     authors:
       - "Anurag Singh"
@@ -175,6 +186,7 @@ items:
       code: https://github.com/muandet-lab/incentive-aware-ai-regulation
 
   - year: 2026
+    category: published
     title: "Instrumental and Proximal Causal Inference with Gaussian Processes"
     authors:
       - "Yuqi Zhang"
@@ -191,6 +203,7 @@ items:
       pdf: https://arxiv.org/abs/2603.02159
 
   - year: 2026
+    category: published
     title: "Set-based v.s. Distribution-based Representations of Epistemic Uncertainty: A Comparative Study"
     authors:
       - "Kaizheng Wang"
@@ -208,6 +221,7 @@ items:
       pdf: http://arxiv.org/abs/2602.22747
 
   - year: 2026
+    category: published
     title: "Robust Predictive Uncertainty and Double Descent in Contaminated Bayesian Random Features"
     authors:
       - "Michele Caprio"
@@ -222,6 +236,7 @@ items:
       pdf: https://arxiv.org/pdf/2602.19126
 
   - year: 2026
+    category: published
     title: "Learning Credal Ensembles via Distributionally Robust Optimization"
     authors:
       - "Kaizheng Wang"
@@ -242,6 +257,7 @@ items:
       code: "https://github.com/Kaizheng-WANG/Learning-Credal-Ensembles-via-Distributionally-Robust-Optimization"
 
   - year: 2026
+    category: preprint
     title: "Beyond Prediction-Set Size: Quantifying Conformal Uncertainty through Credal Geometry"
     authors:
       - "Siu Lun Chau"
@@ -255,6 +271,7 @@ items:
       pdf: "https://arxiv.org/abs/2602.01667"
 
   - year: 2026
+    category: published
     title: "Explanation Design in Strategic Learning: Sufficient Explanations that Induce Non-harmful Responses"
     authors:
       - "Kiet Q.H. Vo"
@@ -270,6 +287,7 @@ items:
       code: "https://github.com/muandet-lab/sl-leaf"
 
   - year: 2026
+    category: published
     title: "Exact Shapley Attributions in Quadratic-time for FANOVA Gaussian Processes"
     authors:
       - "Majid Mohammadi"
@@ -289,6 +307,7 @@ items:
   # --------------------
 
   - year: 2025
+    category: preprint
     title: "When Do Credal Sets Stablize? Fixed Point Theorems for Credal Set Updates"
     authors:
       - "Michele Caprio"
@@ -301,6 +320,7 @@ items:
       pdf: "https://arxiv.org/pdf/2510.04769"
 
   - year: 2025
+    category: published
     title: "Integral Imprecise Probability Metrics"
     authors:
       - "Siu Lun Chau"
@@ -326,6 +346,7 @@ items:
   #     code: "https://github.com/muandet-lab/Imprecise-Scoring-Rule"
 
   - year: 2025
+    category: published
     title: "Truthful Elicitation of Imprecise Forecast"
     authors:
       - "Anurag Singh"
@@ -342,6 +363,7 @@ items:
       code: "https://github.com/muandet-lab/Imprecise-Scoring-Rule"
 
   - year: 2025
+    category: published
     title: "Kernel Quantile Embedding and Associated Probability Metircs"
     authors:
       - "Masha Naslidnyk"
