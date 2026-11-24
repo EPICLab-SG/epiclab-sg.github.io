@@ -17,15 +17,22 @@
         {% for e in include.pub.equal_contribution %}
           {% if e == author %}{% assign is_equal = true %}{% endif %}
         {% endfor %}
+        {% assign is_joint_last = false %}
+        {% for last_author in include.pub.joint_last_authors %}
+          {% if last_author == author %}{% assign is_joint_last = true %}{% endif %}
+        {% endfor %}
         {% if is_highlight %}
-          <ins>{{ author }}{% if is_equal %}*{% endif %}</ins>
+          <ins>{{ author }}{% if is_equal %}*{% endif %}{% if is_joint_last %}<sup>†</sup>{% endif %}</ins>
         {% else %}
-          {{ author }}{% if is_equal %}*{% endif %}
+          {{ author }}{% if is_equal %}*{% endif %}{% if is_joint_last %}<sup>†</sup>{% endif %}
         {% endif %}
         {% unless forloop.last %}, {% endunless %}
       {% endfor %}
       {% if include.pub.equal_contribution %}
         (* equal contribution)
+      {% endif %}
+      {% if include.pub.joint_last_authors %}
+        († joint last authors)
       {% endif %}
     </p>
   {% endif %}

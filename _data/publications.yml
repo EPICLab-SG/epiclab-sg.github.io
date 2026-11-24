@@ -163,6 +163,9 @@ items:
       - "Masaki Adachi"
     highlight_authors:
       - "Siu Lun Chau"
+    joint_last_authors:
+      - "Siu Lun Chau"
+      - "Masaki Adachi"
     venue:
       - "Conference on Uncertainty in Artificial Intelligence (UAI) 2026"
     links:

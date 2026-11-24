@@ -57,6 +57,8 @@ The publications page groups entries by category, sorts each group by descending
 year, and automatically generates section counts and continuous descending paper
 numbers. Numbers are display positions and may change when entries are added or
 recategorized. Keep PDF links, author highlighting, and awards on the same entry.
+Use `joint_last_authors` with the matching author names to mark joint last
+authorship with a dagger (†) and an explanatory note.
 
 ## Notes
 
